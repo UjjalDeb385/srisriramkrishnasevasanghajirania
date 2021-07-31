@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="./images/logo-icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="new-home.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <meta name="theme-color" content="##e0bcfc">
+    <meta name="theme-color" content="#e0bcfc">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
         integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
         crossorigin="" />
@@ -31,7 +31,7 @@
                 About</a>
         </div>
 
-        <a href="members.html"><i class="fas fa-user-circle"></i> Members</a>
+        <a href="member.html"><i class="fas fa-user-circle"></i> Members</a>
         <a href="#map"><i class="fas fa-map-marker-alt"></i> Map</span></a>
         <a href="dikshaquery.html"><i class="fi-rr-apps"></i> Diksha queries</a>
 
@@ -132,7 +132,7 @@
         </div>
         <div class="mob-2">
             <div class="date-icon"></div>
-            <h3>Date <br> <span>31-07-2021</span> </h3>
+            <h3>Date <br> <span id="date1"></span> </h3>
 
         </div>
     </div>
@@ -573,7 +573,7 @@
                         class="fab fa-google"></i>calendar so that it can remind you the day before.</p>
 
                 <div class="cal-btn">
-                    <a href="#">Calendar <i class="fi-rr-calendar"></i></a>
+                    <a href="calendar.html">Calendar <i class="fi-rr-calendar"></i></a>
                 </div>
             </div>
         </div>
@@ -851,7 +851,8 @@
             <h2>Youtube <span style="color:#ff0707;">Playlist</span> for bhajans and all</h2>
             <p>get cumilitive sources of bhajans and paths</p>
             <div class="box-btn">
-                <a href="#">Get PLAYLIST <i class="fi-rr-apps-delete"></i> </a>
+                <a href="https://www.youtube.com/playlist?list=PLRajBVOhuVcc3EXc6CO2ENGjxX3jj8wiy">Get PLAYLIST <i
+                        class="fi-rr-apps-delete"></i> </a>
             </div>
         </div>
         <div class="close" onclick="onclick= document.getElementById('box').style.display='none'"> <i
@@ -1043,6 +1044,7 @@
         const g = d.getDate();
 
         document.getElementById("date").innerHTML = g + "/" + f + "/" + e;
+        document.getElementById("date1").innerHTML = g + "/" + f + "/" + e;
     </script>
 
 
