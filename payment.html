@@ -11,13 +11,14 @@
     <link rel="shortcut icon" href="./images/logo-icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="extra1.css">
     <meta name="theme-color" content="#ff8cd5">
     <script src="https://kit.fontawesome.com/261ab8f51f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="parallax">
-        <a href="index.html" class="left">
+        <!-- <a href="index.html" class="left">
 
             <div class="home-icon">
                 <img src="./images/home.png" alt="">
@@ -48,21 +49,61 @@
 
 
 
+    </div> -->
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="border-left:0px ;">×</a>
+
+            <div data-aos="flip-up" data-aos-delay="100" data-aos-duration="4000">
+                <a href="aboutus.html" style="padding-top: 20px;"><i class="fi-rr-info"></i> About</a>
+            </div>
+
+            <a href="member.html"><i class="fas fa-user-circle"></i> Members</a>
+            <a href="#map"><i class="fas fa-map-marker-alt"></i> Map</span></a>
+            <a href="dikshaquery.html"><i class="fi-rr-apps"></i> Diksha queries</a>
+
+
+
+
+        </div>
+        <div id="navbar">
+            <div class="tem-icon">
+            </div>
+            <h1>Sri Sri <br><span style=" color:orange;">Ramkrishna</span> Seva<span
+                    style="border-bottom:4px solid black;">sangha</span></h1>
+
+
+            <a href="#" class="openbtn" onclick="openNav()"><i class="fi-rr-apps" style="font-size:20px;"></i></a>
+
+
+
+        </div>
     </div>
 
 
-    <div class="card-contact">
+    <div class="card-contact" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
         <div class="icon">
             <div class="circle4"></div>
         </div>
         <div class="circle1"><i class="fi-rr-share" style="padding-left:2px;
                 padding-top:12px;font-size:35px;"></i>
         </div>
-        <div class="circle2" style="font-size:16px;;padding-top:10px;"><i class="fab fa-whatsapp" style="padding-left:2px;
-                padding-top:1px;font-size:20px;padding-left:10px;"></i>Whatsapp</div>
-        <div class="circle3" style="font-size:16px;padding-top:10px;"><i class="fi-rr-smartphone" style="padding-left:2px;
-                padding-top:12px;font-size:20px;padding-left:10px;"></i>Call</div>
-        <a href="" style=""><i class="fi-rr-comment-alt"></i>
+
+        <div class="circle2" style="font-size:16px;;padding-top:10px;cursor:pointer;"
+            onclick="location.href='member.html';">
+            <i class="fab fa-whatsapp" style="padding-left:2px;
+             padding-top:1px;font-size:20px;padding-left:10px;"></i>Whatsapp
+
+        </div>
+
+
+        <div class="circle3" style="font-size:16px;padding-top:10px;" onclick="location.href='member.html';">
+            <i class="fi-rr-smartphone" style="padding-left:2px;
+                padding-top:12px;font-size:20px;padding-left:10px;"></i>
+            Call
+
+        </div>
+
+        <a href="" style="cursor:pointer" onclick="location.href='tel:+919774342451';"><i class="fi-rr-comment-alt"></i>
             Message</a>
 
         <h1 class="note"><i class="fi-rr-edit" style="font-size:16px;"></i>This is strongly advisable to contact our
@@ -87,7 +128,7 @@
 
     </div>
 
-    <div class="contact1">
+    <div class="contact1" data-aos="fade-in" data-aos-offset="400" data-aos-delay="200" data-aos-duration="1000">
         <div class="icon1"></div>
         <div class="div1">
             <h1><i class="fi-rr-credit-card" style="font-size:20px;"></i> Other Payment option</h1>
@@ -114,7 +155,7 @@
 
     </div>
 
-    <div class="contact2">
+    <div class="contact2" data-aos="fade-in" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000">
 
         <div class="queries">points to ponder <i class="fi-rr-bell-ring"></i></div>
         <div class="queries1"><i class="fi-rr-shield-check"></i> our ashram or members wont ask you bank details or
@@ -125,31 +166,117 @@
         </div>
 
     </div>
+    <div class="extradiv" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
+        <h1 class="overview" style="color:#aaa;"><i class="fi-rr-refresh"></i>verview</h1>
+
+        <div class="header-extra-div">
+            <h1>sri sri ramkrishna sevasangha</h1>
+
+        </div>
+
+        <div class="header-extra-minidiv">
+            <h3><i class="fi-rr-home"></i><br>est.2010</h3>
+
+
+
+        </div>
+        <div class="header-extra-minidiv">
+            <h3><i class="fi-rr-shop"></i><br>jirania</h3>
+
+        </div>
+
+        <div class="header-extra-minidiv">
+            <h3><i class="fi-rr-shield-exclamation"></i><br>registered</h3>
+
+
+        </div>
+        <div class="header-extra-minidiv" style="cursor:pointer" onclick="location.href='index.html';">
+            <h3><i class="fi-rr-stopwatch"></i><br>open 24/7</h3>
+
+        </div>
+        <div class="header-extra-minidiv" style="cursor:pointer" onclick="location.href='index.html#map';">
+            <h3><i class="fi-rr-marker"></i><br>map</h3>
+
+        </div>
+
+        <div class="header-extra-minidiv" style="cursor:pointer"
+            onclick="location.href='https://chat.whatsapp.com/EdfSocvsuQTA4rrQ7escty';">
+            <h3><i class="fi-rr-share"></i><br>whatsapp</h3>
+        </div>
+        <div class="header-extra-minidiv" style="cursor:pointer"
+            onclick="location.href='https://www.youtube.com/playlist?list=PLRajBVOhuVcc3EXc6CO2ENGjxX3jj8wiy';">
+            <h3><i class="fi-rr-play-alt"></i><br>youtube</h3>
+        </div>
+        <div class="header-extra-minidiv" style="cursor:pointer" onclick='location.href="mailto:debujjal4@gmail.com"'>
+            <h3><i class="fi-rr-envelope"></i><br>mail</h3>
+        </div>
+        <div class="header-extra-minidiv" style="cursor:pointer" onclick="location.href='tel:+919774342451';">
+            <h3><i class="fi-rr-smartphone"></i><br>call us</h3>
+        </div>
+        <h3>
+            people
+            also visit</h3>
+        <a href="dikshaquery.html" style="text-decoration: none;color:rgb(74, 226, 74);">
+            <div class="header-extra-minidiv-2">
+                <h1><i class="fi-rr-user-add"></i>Diksha Queries</h1>
+
+
+
+            </div>
+        </a>
+        <a href="member.html" style="text-decoration: none;color:rgb(12, 211, 12);">
+            <div class="header-extra-minidiv-2">
+                <h1><i class="fi-rr-following"></i>our members</h1>
+
+
+
+            </div>
+        </a>
+        <a href="payment.html" style="text-decoration: none;color:rgb(74, 226, 74);">
+            <div class="header-extra-minidiv-2" style="margin-bottom:10px;">
+                <h1><i class="fi-rr-file-check"></i>contribute us</h1>
+
+
+
+            </div>
+        </a>
+
+
+
+
+
+
+
+    </div>
+    </div>
+
+
 
     <div class="faq-big" id="faq1">
         <div class="faq">
-            <div class="faq-circle"></div>
+            <!-- <div class="faq-circle"></div> -->
             <h1> <span style="font-size: 28px;">
                     <div data-aos="flip-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
-                        Frequently
+                        <span style="color:#188676;">Frequently</span>
                 </span> <br> asked questi<i class="fi-rr-shield-interrogation"></i>n
         </div>
         </h1>
     </div>
-
     <div class="container">
 
         <h3>
             <div data-aos="slide-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
                 <span style="margin-left: -30px; padding-right: 20px;"> 1. </span> How do I donate <span
-                    style="color:#F5E960;">online?
+                    style="color:#eee041;">online?
                 </span>
             </div>
         </h3>
     </div>
+
+
     <div class="content">
         <div data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
-            <p>a) Go to https://donations.abc.org/
+            <p>a) Go to our website
                 <br>
                 you can choose any one option
                 <br>
@@ -166,14 +293,15 @@
     <div class="container">
         <div data-aos="slide-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
             <h3> <span style="margin-left: -30px; padding-right: 20px;">2.</span> Getting the Official <span
-                    style="color:#55D6C2;">Receipt </span>of the
+                    style="color:#40eb6b;">Receipt </span>of the
                 Donation</h3>
         </div>
     </div>
     <div class="content">
         <div data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
             <p>Generally we do not provide payment receipts, after receiving your donation we have confirmed you via
-                messages. If you want to collect your transaction slip in that case make sure your payment method should
+                messages. If you want to collect your transaction slip in that case make sure your payment method
+                should
                 be through googlepay, we will send you a receipt copy through googlepay chat. </p>
         </div>
     </div>
@@ -181,15 +309,18 @@
 
     <div class="container">
         <div data-aos="slide-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
-            <h3> <span style="margin-left: -30px; padding-right: 20px;">3.</span> If amount gets debited but transaction
-                <br> <span style="color:#F49097;">failed </span>or<span style="color:#F49097;"> cancelled ?</span>
+            <h3> <span style="margin-left: -30px; padding-right: 20px;">3.</span> If amount gets debited but
+                transaction
+                <br> <span style="color:#Fd535e;">failed </span>or<span style="color:#fd535e;"> cancelled ?</span>
             </h3>
         </div>
     </div>
     <div class="content">
         <div data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
-            <p>If amount get debited and you don't receive confirmation email or SMS. we request you to wait for a week.
-                The donation amount will be credited back to your account, or we will get the donation. If we get the
+            <p>If amount get debited and you don't receive confirmation email or SMS. we request you to wait for a
+                week.
+                The donation amount will be credited back to your account, or we will get the donation. If we get
+                the
                 donation, we will update the status of the donation, within 10 days.</p>
         </div>
     </div>
@@ -201,7 +332,7 @@
 
     <div class="comingsoon">
         <div data-aos="slide-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
-            <h1>P<i class="fi-rr-credit-card"></i>yment <span style="color:#C8E9A0;">gateway</span>
+            <h1>P<i class="fi-rr-credit-card"></i>yment <span style="color:#55D6C2;">gateway</span>
                 <br>coming so<i class="fi-rr-alarm-clock"></i>n
             </h1>
         </div>
@@ -220,52 +351,66 @@
     </h1>
     <h2 class="wegotthis">we got this covered for you</h2>
 
+
+
+
     <footer class="footer">
         <div class="container-2">
-            <div data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
-                <div class="row">
-                    <div class="footer-col">
-                        <h4>Menu</h4>
-                        <ul>
-                            <li><a href="index.html"><i class="fas fa-house-user"></i> Home</a></li>
-                            <li><a href="aboutus.html"><i class="fi-rr-info"></i> About Us</a></li>
-                            <li><a href="members.html"><i class="fas fa-user-friends"></i> Members</a></li>
-                            <li><a href="calendar.html"><i class="fi-rr-calendar"></i> Calendar</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-col">
-                        <h4>contribute us</h4>
-                        <ul>
-                            <li><a href="payment.html#faq1"><i class="fas fa-question-circle"></i> FAQ</a></li>
-                            <li><a href="dikshaquery.html"><i class="fi-rr-bulb"></i> Diksha Queries</a></li>
-                            <li><a href="payment.html"><i class="fas fa-hand-holding-usd"></i> Donate Us</a></li>
-                            <li><a href="dikshaquery.html#contactus"><i class="fas fa-address-book"></i> Contact Us </a>
-                            </li>
+            <div class="row">
+                <div class="footer-col-a">
 
-                        </ul>
-                    </div>
-
-                    <div class="footer-col-1">
-                        <h4>Contact Us</h4>
-                        <div class="social-links">
-                            <h3><i class="fas fa-map-marker-alt"></i> Sri Sri Ramakrishna Sevasangha </h3>
-                            <h5>Jirania, (SubhashNagar) Daspara, West Tripura-799045</h5>
-                            <h2><i class="fas fa-phone-alt"></i> Phone: +91-9774138897</h2>
-                            <a href="index.html">Get Direction in Google Maps</a>
-
-                        </div>
-                    </div>
-                    <div class="footer-col">
-                        <div class="photo-quotes">
-                            <img src="./images/finalposter.png " alt="">
-                        </div>
-                    </div>
+                    <h4>Menu</h4>
 
 
+                    <ul>
+                        <li><a href="home.html"><i class="fas fa-house-user"></i> Home</a></li>
+                        <li><a href="aboutus.html"><i class="fi-rr-info"></i> About Us</a></li>
+                        <li><a href="member.html"><i class="fas fa-user-friends"></i> Members</a></li>
+                        <li><a href="calendar.html"><i class="fi-rr-calendar"></i> Calendar</a></li>
+                    </ul>
                 </div>
+                <div class="footer-col">
+
+                    <h4>contribute us</h4>
+
+                    <ul>
+                        <li><a href="payment.html"><i class="fas fa-question-circle"></i> FAQ</a></li>
+                        <li><a href="dikshaquery.html"><i class="fi-rr-bulb"></i> Diksha Queries</a></li>
+                        <li><a href="payment.html"><i class="fas fa-hand-holding-usd"></i> Donate Us</a></li>
+                        <li><a href="members.html  #myForm"><i class="fas fa-address-book"></i> Contact Us </a></li>
+
+                    </ul>
+                </div>
+
+                <div class="footer-col-1">
+
+                    <h4>Contact Us</h4>
+
+
+                    <div class="social-links">
+                        <h3><i class="fas fa-map-marker-alt"></i> Sri Sri Ramakrishna Sevasangha </h3>
+                        <h5>Jirania, (SubhashNagar) Daspara, West Tripura-799045</h5>
+                        <h2><i class="fas fa-phone-alt"></i> Phone: +91-9774138897</h2>
+                        <a
+                            href="https://www.google.com/maps/place/Ramkrishna+Ashram/@23.825355,91.4413011,17z/data=!3m1!4b1!4m5!3m4!1s0x3753eb8a81f8b0db:0xcf29703ca8a23740!8m2!3d23.8253501!4d91.4434898">Get
+                            Direction in Google Maps</a>
+
+                    </div>
+                </div>
+                <div class="footer-col-photo">
+                    <div class="photo-quotes">
+                        <img src="./images/finalposter.png" alt="">
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </footer>
+    <!-- 
+    <div class="end-part">
+        <i class="fi-rr-copyright"></i> 2021 by Sri Sri Ramkrishna Sevasangha, Jirania . All Rights Reserved.
+    </div> -->
 
 
 
@@ -323,15 +468,85 @@
 
         </div>
 
-        <div class="end-part">
-            <i class="fi-rr-copyright"></i> 2021 by Sri Sri Ramkrishna Sevasangha, Jirania . All Rights Reserved.
-        </div>
+
+
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidebar").style.width = "250px";
+
+            }
+
+            function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+            }
+        </script>
+        <!-- <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function () {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos >= currentScrollPos) {
+                    document.getElementById("navbar").style.top = "0";
+                } else {
+                    document.getElementById("navbar").style.top = "-100px";
+                }
+                prevScrollpos = currentScrollPos;
+            }
+        </script> -->
+
 
 
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();
         </script>
+        <script>
+            function openNav() {
+                document.getElementById("mySidebar").style.width = "200px";
+                document.getElementById("mySidebar").style.borderRight = "8px solid orangered"
+
+            }
+
+            function closeNav() {
+                document.getElementById("mySidebar").style.width = "0px";
+                document.getElementById("mySidebar").style.borderRight = "0px solid orangered"
+            }
+        </script>
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function () {
+                var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos >= currentScrollPos) {
+                    document.getElementById("navbar").style.top = "0";
+                } else {
+                    document.getElementById("navbar").style.top = "-200px";
+                }
+                prevScrollpos = currentScrollPos;
+            }
+        </script>
+
+
+        <script>
+            window.onscroll = function () { myFunction() };
+
+            var header = document.getElementById("navbar");
+            var sticky = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                    header.style.position = "fixed";
+                    header.style.top = "0px";
+                    header.style.left = "0px";
+
+
+                } else {
+                    header.style.position = "absolute";
+                    header.style.top = "300px";
+                    header.style.left = "0px";
+                }
+            }
+        </script>
+
 
 
 
@@ -366,7 +581,7 @@
         </script>
 
 
-        <script>
+        <!-- <script>
             window.onscroll = function () { myFunction() };
 
             var header = document.getElementsByClassName("headercontainer")[0];
@@ -385,7 +600,7 @@
                     header.style.left = "0px";
                 }
             }
-        </script>
+        </script> -->
 
 
 
