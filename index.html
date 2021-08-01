@@ -1040,11 +1040,12 @@
     <script>
         const d = new Date();
         const e = d.getFullYear();
-        const f = d.getMonth();
+        const f = d.getMonth() + 1;
+
         const g = d.getDate();
 
-        document.getElementById("date").innerHTML = g + "/" + f + "/" + e;
-        document.getElementById("date1").innerHTML = g + "/" + f + "/" + e;
+        document.getElementById("date").innerHTML = g + "-" + f + "-" + e;
+        document.getElementById("date1").innerHTML = g + "-" + f + "-" + e;
     </script>
 
 
